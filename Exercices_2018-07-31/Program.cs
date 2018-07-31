@@ -16,7 +16,7 @@ namespace ConsoleApp1
             string maChaineCaracteres = "il fait beau";
             DateTime dateJour = DateTime.Now;
             Console.WriteLine("Présentation sur une seule ligne");
-            Console.WriteLine("Le " + dateJour.ToShortDateString() + " " + maChaineCaracteres + "." + " Ceci est " + monBooleen + "." + " Nous sommes " + monEntier + " dans la classe.");
+            Console.WriteLine("Le "+dateJour.ToShortDateString()+" "+maChaineCaracteres+"."+" Ceci est "+monBooleen+"."+ " Nous sommes "+monEntier+" dans la classe.");
             Console.WriteLine("\n\nPrésentation sur plusieurs lignes en utilisant le retour chariot et donc une seule ligne de commande");
             Console.WriteLine("Le " + dateJour.ToShortDateString() + " " + maChaineCaracteres + "." + "\nCeci est " + monBooleen + "." + "\nNous sommes " + monEntier + " dans la classe.");
             Console.ReadKey();
